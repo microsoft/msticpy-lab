@@ -1,0 +1,127 @@
+metadata:
+  version: 1
+  description: Local Data Alert Queries
+  data_environments: [LocalData]
+  data_families: [SecurityAlert, WindowsSecurity, Network, Azure, LinuxSyslog]
+  tags: ['alert', 'securityalert', 'process', 'account', 'network', 'logon']
+defaults:
+  metadata:
+    data_source: 'security_alert'
+  parameters:
+sources:
+  get_network_summary:
+    description: Network summary for Timeseries
+    metadata:
+      data_families: [Network]
+    args:
+      query: timeseries.pkl
+    parameters:
+  list_host_logons:
+    description: List logons on host
+    metadata:
+      data_families: [WindowsSecurity]
+    args:
+      query: host_logons.pkl
+    parameters:
+  list_host_processes:
+    description: List processes on host
+    metadata:
+      data_families: [WindowsSecurity]
+    args:
+      query: processes_on_host.pkl
+    parameters:
+  OfficeActivity:
+    description: Office 365 activity
+    metadata:
+      data_families: [Azure]
+    args:
+      query: exchange_admin.pkl
+    parameters:
+  list_alerts:
+    description: Retrieves list of alerts
+    metadata:
+      data_families: [SecurityAlert]
+    args:
+      query: alerts_list.pkl
+    parameters:
+  process_hierarchy:
+    description: Show hierarchy of processes on host
+    metadata:
+      data_families: [WindowsSecurity]
+    args:
+      query: process_tree.pkl
+    parameters:
+  list_host_logon_failures:
+    description: List logon failures on host
+    metadata:
+      data_families: [WindowsSecurity]
+    args:
+      query: failed_logons.pkl
+    parameters:
+  list_host_events:
+    description: List events failures on host
+    metadata:
+      data_families: [WindowsSecurity]
+    args:
+      query: all_events_df.pkl
+    parameters:
+  get_process_tree:
+    description: Get process tree for a process
+    metadata:
+      data_families: [WindowsSecurity]
+    args:
+      query: process_tree.pkl
+    parameters:
+  list_azure_network_flows_by_ip:
+    description: List Azure Network flows by IP address
+    metadata:
+      data_families: [Network]
+    args:
+      query: az_net_comms_df.pkl
+    parameters:
+  list_azure_network_flows_by_host:
+    description: List Azure Network flows by host name
+    metadata:
+      data_families: [Network]
+    args:
+      query: az_net_comms_df.pkl
+    parameters:
+  list_all_signins_geo:
+    description: List all Azure AD logon events
+    metadata:
+      data_families: [Azure]
+    args:
+      query: aad_logons.pkl
+    parameters:
+  list_all_syslog_events:
+    description: List all Syslog events
+    metadata:
+      data_families: [LinuxSyslog]
+    args:
+      query: syslog_data.pkl
+    parameters:
+  list_aad_signins_for_account:
+    description: List all Azure AD logons for a user
+    metadata:
+      data_families: [Azure]
+    args:
+      query: list_aad_signins_for_account.pkl
+  list_activity_for_account:
+    description: List all Office365 activity for a user
+    metadata:
+      data_families: [Office365]
+    args:
+      query: list_activity_for_account.pkl      
+  list_logon_attempts_by_account:
+    description: Get all logons for an account
+    metadata:
+      data_families: [WindowsSecurity]
+    args:
+      query: host_logons.pkl
+  list_logons_for_account:
+    description: List all Syslog events
+    metadata:
+      data_families: [LinuxSyslog]
+    args:
+      query: syslog_data.pkl
+    parameters:
