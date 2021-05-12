@@ -3,7 +3,7 @@
 This repo contains the code and data for an interactive lab in which to learn about [MSTICPy](https://github.com/microsoft/msticpy).<br>
 If you don't know anything about MSTICPy it is recommended that you start by reading [our documentation over at ReadTheDocs](https://msticpy.readthedocs.io/en/latest/)<br>
 
-Once you understand what MSTICPy is you are ready to jump into the lab, the main component of which is a Jupyter Notebook. If you wish you can download this repo and run the notebook locally. However, a much easier experience is to click the button below to launch the lab using [Binder](https://mybinder.org/) this will load the notebook in a preconfigured environment that you can access straight from the browser without any setup required. The notebook contains all instructions and resources required for the lab.
+Once you understand what MSTICPy is you are ready to jump into the lab, the main component of which is a Jupyter Notebook. If you wish you can download this repo and run the notebook locally. However, a much easier experience is to click the 'Launch Binder' button below to launch the lab using [Binder](https://mybinder.org/) this will load the notebook in a preconfigured environment that you can access straight from the browser without any setup required. The notebook contains all instructions and resources required for the lab.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/microsoft/msticpy-lab/HEAD?filepath=MSTICPy_Lab.ipynb)
 
