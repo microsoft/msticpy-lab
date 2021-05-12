@@ -7,7 +7,7 @@ Once you understand what MSTICPy is you are ready to jump into the lab, the main
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/microsoft/msticpy-lab/HEAD?filepath=MSTICPy_Lab.ipynb)
 
-If you have any questions or feedback, please open an issue or contains msticpy@microsoft.com.
+If you have any questions or feedback, please open an issue or contact msticpy@microsoft.com.
 
 ## Contributing
 
