@@ -14,7 +14,7 @@ In this lab you will learn about and use the main features of MSTICPy. The lab i
 - Pivots in MSTICPy
 - ML in MSTICPy
 
-![Screenshot of the lab](https://github.com/microsoft/msticpy-lab/blob/main/data/screenshot.png?raw=true)
+![Screenshot of the lab](https://github.com/microsoft/msticpy-lab/blob/main/data/screenshot.png?raw=true =100x200)
 
 In each section you will have a set of guided examples that show you how the features works and how to call them. After the examples are short lab exercises for you to complete, these involve using the features you have just seen examples of. 
 Don't worry if you can't complete any of the lab exercises, they are not required to move onto the next section. You can also view a completed version of the notebook [here](https://github.com/microsoft/msticpy-lab/blob/main/MSTICPy_Lab_Completed.ipynb).
