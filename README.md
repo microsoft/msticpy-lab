@@ -1,14 +1,13 @@
-# Project
+# MSTICPy Lab
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+This repo contains the code and data for an interactive lab in which to learn about [MSTICPy](https://github.com/microsoft/msticpy).<br>
+If you don't know anything about MSTICPy it is recommended that you start by reading [our documentation over at ReadTheDocs](https://msticpy.readthedocs.io/en/latest/)<br>
 
-As the maintainer of this project, please make a few updates:
+Once you understand what MSTICPy is you are ready to jump into the lab, the main component of which is a Jupyter Notebook. If you wish you can download this repo and run the notebook locally. However, a much easier experience is to click the button below to launch the lab using [Binder](https://mybinder.org/) this will load the notebook in a preconfigured environment that you can access straight from the browser without any setup required. The notebook contains all instructions and resources required for the lab.
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+
+
+If you have any questions or feedback, please open an issue or contains msticpy@microsoft.com.
 
 ## Contributing
 

@@ -1,0 +1,7 @@
+QueryDefinitions: null
+TIProviders:
+  Greynoise:
+    Args:
+      AuthKey: ""
+    Primary: true
+    Provider: Greynoise
