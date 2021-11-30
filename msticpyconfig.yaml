@@ -1,7 +1,7 @@
 QueryDefinitions: null
 TIProviders:
-  Greynoise:
+  GreyNoise:
     Args:
       AuthKey: ""
     Primary: true
-    Provider: Greynoise
+    Provider: GreyNoise
